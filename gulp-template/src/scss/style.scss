@@ -85,6 +85,138 @@ body
             margin-top: 200px;
             display: block;
         }
+
+        .nav{
+            margin-top: 200px;
+            background-color: #001623;
+            padding: 20px 0px;
+
+            a{
+                font-size: 18px;
+                margin-left: 50px;
+            }
+
+            .first{
+                margin-left: 0;
+            }
+        }
+    }
+
+    .weCan{
+        .title{
+            font-size: 72px;
+            margin-top: 100px;
+            display: block;
+            text-align: center;
+        }
+
+        .descr{
+            text-align: center;
+            display: block;
+            font-size: 27px;
+            font-style: italic;
+            padding-bottom: 50px;
+            margin-top: 20px;
+        }
+
+        .korElIgr, .barchKorBlue{
+            vertical-align: top;
+        }
+
+        .korElIgr{
+            float: left;
+        }
+
+        .korBut{
+            float: right;
+        }
+
+        .barchKorBlue{
+            margin-left: 5px;
+        }
+
+        .whatsApp{
+            float: left;
+            width: 776px;
+            margin-top: 30px;
+        }
+
+        .podhod{
+            display: flex;
+            margin-top: -300px;
+            float: left;
+            margin-left: 350px;
+            .title{
+                width: 150px;
+                font-size: 48px;
+                text-align: left;
+                margin: 0;
+            }
+
+            .descrPodhod{
+                text-align: left;
+                font-size: 18px;
+                width: 260px;
+                margin-top: 120px;
+                margin-left: -150px;
+            }
+
+            .callPodhod{
+                text-align: left;
+                font-size: 18px;
+                width: 400px;
+                margin-top: 180px;
+                margin-left: -260px;
+            }
+
+            .call{
+                text-transform: uppercase;
+                border: solid;
+                border-color: #e5af6b;
+                border-radius: 50px;
+                padding: 5px 15px;
+                font-size: 14px;
+                background-color: white;
+                font-weight: bold;
+                margin-top: 240px;
+                height: 50px;
+                margin-left: -400px;
+            }
+
+            .zayavka{
+                background: linear-gradient(to right, #ffe4c1, #e5af6b);
+                text-transform: uppercase;
+                border: none;
+                border-radius: 50px;
+                padding: 5px 15px;
+                font-size: 14px;
+                background-color: white;
+                font-weight: bold;
+                margin-top: 240px;
+                height: 50px;
+                margin-left: 20px;
+            }
+        }
+
+        .prozr{
+            float: left;
+            margin-top: 20px;
+        }
+
+        .azur{
+            float: right;
+            width: 780px;
+            height: 360px;
+            margin-top: 20px;
+        }
+
+        .neVse{
+            font-size: 43px;
+            text-align: right;
+            display: inline-block;
+            float: right;
+            font-style: italic;
+        }
     }
 }
 
