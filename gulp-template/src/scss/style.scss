@@ -218,6 +218,52 @@ body
             font-style: italic;
         }
     }
+
+    .teach{
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        .title{
+            margin: 0;
+            font-size: 72px;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .descr{
+            font-size: 27px;
+            font-style: italic;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .card{
+            display: inline-block;
+            width: 220px;
+            margin-left: 90px;
+            margin-top: 50px;
+
+            .cardImg{
+                display: flex;
+                margin-top: -195px;
+                margin-left: 15px;
+            }
+
+            .cardTitle{
+                font-size: 24px;
+                text-align: center;
+            }
+
+            .cardDescr{
+                font-size: 18px;
+                text-align: center;
+            }
+        }
+
+        .first{
+            margin-left: 0;
+        }
+    }
 }
 
 body.lock

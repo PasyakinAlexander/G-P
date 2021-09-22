@@ -1,0 +1,15 @@
+mixin Card(cardImgPath, title, descr, first)
+    .card(class= first) 
+        img.cardBack(src="assets/images/TeachBack.png", alt="")
+        img.cardImg(src=cardImgPath, alt="")
+        p.cardTitle= title
+        p.cardDescr= descr
+
+.teach 
+    p.title Мы научим
+    p.descr Красота снаружи, красота внутри
+    +Card("assets/images/Floristika.png", "Флористика", "Композиции из живых и сухих цветов", "first")
+    +Card("assets/images/VkusnieBuketi.png", "Вкусные букеты", "Букеты изфруктов, овощей, сладостей и соленостей", "")
+    +Card("assets/images/Dekupazh.png", "Декупаж", "Красивое оформление обычных коробок", "")
+    +Card("assets/images/Upakovka.png", "Упаковка подарков", "Креативная упаковка подарков", "")
+    

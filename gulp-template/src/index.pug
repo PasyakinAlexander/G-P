@@ -9,7 +9,8 @@ html(lang="ru")
         title Gift and package
         include pug/head.pug
     body
-        +Header()
+        include pug/header.pug
         .container
-            +WeCan()
+            include pug/weCan.pug
+            include pug/teach.pug
         include pug/scripts.pug
